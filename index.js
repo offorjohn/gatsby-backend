@@ -5,8 +5,8 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-app.use(cors({
-  origin: 'https://gatsby-project-blue.vercel.app/', // 👈 use the frontend's URL here
+app.use(cors({origin: 'https://gatsby-project-blue.vercel.app', // ✅ NO trailing slash
+
   credentials: true
 }));
 
