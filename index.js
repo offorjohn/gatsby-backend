@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.use(cors({
-  origin: 'https://gatsby-project-blue.vercel.app/',
+  origin: 'https://gatsby-backend-1.onrender.com/',
   credentials: true
 }));
 
